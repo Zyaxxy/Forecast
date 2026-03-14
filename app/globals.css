@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f3f6eb;
+  --ink: #132437;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --font-sans: var(--font-heading);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% 20%, #e0f2fe 0%, transparent 40%),
+    radial-gradient(circle at 80% 90%, #dcfce7 0%, transparent 30%),
+    var(--paper);
+  color: var(--ink);
+  font-family: var(--font-heading), "Trebuchet MS", sans-serif;
+}
+
+p,
+input,
+label,
+span,
+button {
+  font-family: var(--font-mono), "Courier New", monospace;
+}
