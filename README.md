@@ -76,6 +76,8 @@ Notebook sections include:
 
 Deployment link:
 
+https://forecast-uk-2024.vercel.app/
+
 
 ## Requirements Coverage (Non-Deployment)
 
