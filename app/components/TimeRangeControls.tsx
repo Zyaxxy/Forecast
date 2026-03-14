@@ -1,6 +1,6 @@
 "use client";
 
-import { JAN_END_UTC, JAN_START_UTC } from "@/lib/constants";
+import { JAN_END_UTC, JAN_START_UTC } from "@/app/lib/constants";
 
 type TimeRangeControlsProps = {
   startTime: string;

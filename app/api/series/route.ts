@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
-import { JAN_END_UTC, JAN_START_UTC, MIN_HORIZON_HOURS } from "@/lib/constants";
-import { getSeries } from "@/lib/dataAccess";
+import { JAN_END_UTC, JAN_START_UTC, MIN_HORIZON_HOURS } from "@/app/lib/constants";
+import { getSeries } from "@/app/lib/dataAccess";
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;

@@ -5,7 +5,7 @@ import { clampHorizon, JAN_END_UTC, JAN_START_UTC } from "./constants";
 import { selectLatestForecastAtHorizon } from "./horizonMatcher";
 import { CuratedForecastRow, SeriesPoint, SeriesResponse, TargetForecastCandidate } from "./types";
 
-const DATA_PATH = path.join(process.cwd(), "..", "data", "processed", "curated_jan2024.json");
+const DATA_PATH = path.join(process.cwd(), "data", "processed", "curated_jan2024.json");
 
 let cachedRows: CuratedForecastRow[] | null = null;
 

@@ -2,8 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-import { JAN_END_UTC, JAN_START_UTC } from "@/lib/constants";
-import { SeriesPoint, SeriesResponse } from "@/lib/types";
+import { JAN_END_UTC, JAN_START_UTC } from "@/app/lib/constants";
+import { SeriesPoint, SeriesResponse } from "@/app/lib/types";
 
 import { ForecastChart } from "./ForecastChart";
 import { HorizonSlider } from "./HorizonSlider";

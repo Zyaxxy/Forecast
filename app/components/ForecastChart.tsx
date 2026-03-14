@@ -13,7 +13,7 @@ import {
   YAxis,
 } from "recharts";
 
-import { SeriesPoint } from "@/lib/types";
+import { SeriesPoint } from "@/app/lib/types";
 
 type ForecastChartProps = {
   points: SeriesPoint[];
